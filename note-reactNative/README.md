@@ -83,18 +83,18 @@ Git安装完毕后，会自动配置到系统环境变量中；
 
 ## 搭建RN的项目
 1. 运行`react-native init 项目名称`来初始化一个react native项目；
-![01.项目初始化完毕之后截图并说明](images/01.项目初始化完毕之后截图并说明.png)
+![01.项目初始化完毕之后截图并说明](./images/01.项目初始化完毕之后截图并说明.png)
 2. 打包运行项目，把打包好的项目部署到手机中！
  + 确保手机已经正确的链接到了当前电脑上，同时手机开启了`开发者调试模式`；可以使用`adb devices`来查看当前链接到电脑上的手机设备列表！
  + 当确认手机正确链接到电脑上之后，可以运行`react-native run-android`来打包当前项目，并把打包好的项目以调试的模式安装到手机中！
  + 打包完成之后的截图
-![02.打包完成之后的截图](images/02.打包完成之后的截图.png)
+![02.打包完成之后的截图](./images/02.打包完成之后的截图.png)
  + React Package窗口的作用
-![03.React Package窗口的作用](images/03.React Package窗口的作用.png)
+![03.React Package窗口的作用](./images/03.React Package窗口的作用.png)
  + 04.React  Packager打包编译代码截图
-![04.React  Packager打包编译代码截图](images/04.React  Packager打包编译代码截图.png)
+![04.React  Packager打包编译代码截图](./images/04.React  Packager打包编译代码截图.png)
  + 当第一打包编译项目部署到手机上之后 - 如何设置开发服务器的地址
-![05.当第一打包编译项目部署到手机上之后 - 如何设置开发服务器的地址.png](images/05.当第一打包编译项目部署到手机上之后 - 如何设置开发服务器的地址.png)
+![05.当第一打包编译项目部署到手机上之后 - 如何设置开发服务器的地址.png](./images/05.当第一打包编译项目部署到手机上之后 - 如何设置开发服务器的地址.png)
 
 ## [配置Tab栏](https://github.com/happypancake/react-native-tab-navigator)
 
@@ -149,13 +149,13 @@ var styles = StyleSheet.create({
 ```
 <Swiper style={styles.wrapper} showsButtons={true} height={160} autoplay={true}>
                 <View style={styles.slide1}>
-                    <Image source={{uri:'http://www.itcast.cn/images/slidead/BEIJING/2017410109413000.jpg'}} style={styles.image}></Image>
+                    <Image source={{uri:'http://www.itcast.cn/./images/slidead/BEIJING/2017410109413000.jpg'}} style={styles.image}></Image>
                 </View>
                 <View style={styles.slide2}>
-                    <Image source={{uri:'http://www.itcast.cn/images/slidead/BEIJING/2017440109442800.jpg'}} style={styles.image}></Image>
+                    <Image source={{uri:'http://www.itcast.cn/./images/slidead/BEIJING/2017440109442800.jpg'}} style={styles.image}></Image>
                 </View>
                 <View style={styles.slide3}>
-                    <Image source={{uri:'http://www.itcast.cn/images/slidead/BEIJING/2017441409442800.jpg'}} style={styles.image}></Image>
+                    <Image source={{uri:'http://www.itcast.cn/./images/slidead/BEIJING/2017441409442800.jpg'}} style={styles.image}></Image>
                 </View>
             </Swiper>
 ```
@@ -213,7 +213,7 @@ var styles = StyleSheet.create({
       noData: false,
       storageOptions: {
         skipBackup: true,
-        path: 'images'
+        path: './images'
       }
     }
 

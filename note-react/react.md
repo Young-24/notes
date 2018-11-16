@@ -36,7 +36,7 @@
     ]
   ```
 
-  ![装饰者模式](C:\Users\51336\Desktop\note-react\img\装饰者模式.png)
+  ![装饰者模式](.\img\装饰者模式.png)
 
 
 
@@ -88,7 +88,7 @@ Object.assign({},prevState,{
         })
 ```
 
-![redux_Objext.assign()](C:\Users\51336\Desktop\note-react\img\redux_Objext.assign().png)
+![redux_Objext.assign()](.\img\redux_Objext.assign().png)
 
 ## combineReducers
 
