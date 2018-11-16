@@ -296,7 +296,7 @@ android {
 
 ## 相关的包
 
-`react-navigation`  官方主推的导航库   https://www.npmjs.com/package/react-navigation
+`react-navigation`  路由 官方主推的导航库   https://www.npmjs.com/package/react-navigation   https://reactnavigation.org/
 
 `react-native-vector-icons`  图标库    https://github.com/oblador/react-native-vector-icons
 
