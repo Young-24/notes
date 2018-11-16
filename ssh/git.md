@@ -12,7 +12,7 @@
 
 下一步会提醒文件保存在哪   可以把当前路径复制一下 再加上想要的文件名  如下图
 
-![ssh1](C:\Users\Administrator\Desktop\notes\ssh\ssh1.png)
+![ssh1](./ssh1.png)
 
 接下来是设置密码   可以是空
 
@@ -20,4 +20,4 @@
 
 在 .ssh 文件目录下有一个 config 文件    (可能没有需要手动生成)
 
-![ssh2](C:\Users\Administrator\Desktop\notes\ssh\ssh2.png)
+![ssh2](./ssh2.png)
